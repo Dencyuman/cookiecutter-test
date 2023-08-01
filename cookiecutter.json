@@ -1,4 +1,6 @@
 {
     "project_name": "sample app",
+    "project_dir_name": "{{ cookiecutter.project_name | lower | replace(' ', '-') }}",
+    "short_description": "This is {{ cookiecutter.project_name }} app's repository.",
     "author": "sample author"
 }
